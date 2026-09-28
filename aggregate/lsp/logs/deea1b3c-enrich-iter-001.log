@@ -1,0 +1,17 @@
+[2026-09-28T07:12:42Z] === ENRICH ITERATION 1 START | repo=asimov-modules/asimov-jq-module sha=deea1b3c ===
+[2026-09-28T07:12:42Z] [iter=1] PHASE START: enrich repo=asimov-modules/asimov-jq-module sha=deea1b3c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/deea1b3c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/deea1b3c83a54d5051c62d98ad9168ccabeeb671.nq.gz
+[2026-09-28T07:12:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-28T07:12:54Z] [iter=1] AST store loaded triples=4079 load_secs=5 mem_mb=93 MB
+[2026-09-28T07:12:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=93 MB
+[2026-09-28T07:12:54Z] [iter=1] LSP targets found call_sites=51 imports=3 extends=0 implements=0 secs=0
+[2026-09-28T07:12:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=93 MB
+[2026-09-28T07:12:54Z] [iter=1] Position index built positions=281 nodes_with_types=362 secs=0 mem_mb=93 MB
+[2026-09-28T07:12:54Z] [iter=1] Step 3: Starting LSP resolution mem_mb=93 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T07:12:54Z] [iter=1] Resolving target type target_type=call_site count=51
+[2026-09-28T07:13:30Z] [iter=1] Target type resolved target_type=call_site resolved=19 errors=51 secs=36 mem_mb=94 MB
+[2026-09-28T07:13:30Z] [iter=1] Resolving target type target_type=import_statement count=3
+[2026-09-28T07:13:30Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=src/runner/main.rs
+[2026-09-28T07:13:35Z] [iter=1] Target type resolved target_type=import_statement resolved=3 errors=0 secs=5 mem_mb=94 MB
+[2026-09-28T07:13:41Z] [iter=1] Step 5: Writing final enrichment file triples=277
+[2026-09-28T07:13:41Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/deea1b3c83a54d5051c62d98ad9168ccabeeb671.nq.gz size_kb=3
+[2026-09-28T07:13:41Z] [iter=1] PHASE END: enrich elapsed_s=59 elapsed_min=1.0 total_triples=277
