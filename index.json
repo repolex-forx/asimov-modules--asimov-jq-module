@@ -1,0 +1,11 @@
+{
+  "org": "asimov-modules",
+  "repo": "asimov-jq-module",
+  "versions": [
+    {
+      "commit": "deea1b3c83a54d5051c62d98ad9168ccabeeb671",
+      "tag": "0.1.5",
+      "parsed_at": "2026-09-28T07:15:30.124268+00:00"
+    }
+  ]
+}
